@@ -160,26 +160,24 @@
 
 /* Party timing section style Start  */
 .party-time-container {
-    width: 1320px;
+    max-width: 1320px;
     height: 482px;
-    flex-shrink: 0;
     margin-top: 120px;
+    margin-bottom: 120px;
     margin-left: 140px;
     margin-right: 140px;
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     justify-content: center;
     display: flex;
     align-items: center;
     text-align: center;
     border-radius: 16px;
- /* background-color: antiquewhite; */
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
 .party-time-container .timing {
     color: #070211;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 46px;
     text-transform: capitalize;
@@ -202,7 +200,6 @@
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
@@ -218,8 +215,6 @@
     width: 1320px;
     height: 482px;
     margin: 0 auto;
- /* background-color: aqua; */
- /* text-align: left; */
     justify-content: space-between;
     border-radius: 16px;
 }
@@ -230,7 +225,6 @@
 
 .coming-soon-text h3 {
     color: #F00;
- /* text-align: center; */
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -269,8 +263,7 @@
     border-radius: 364.844px;
     background-image: lightgray -91.279px 0px / 150.038% 100%;
     margin: 49px;
- /* border: 5px solid red;
-    padding: 5px; */
+    
 }
 
 .coming-soon-photo {
@@ -314,11 +307,11 @@
 }
 
 
+/* Holiday Discount Section */
 .holiday-container {
-
     width: 1320px;
     height: 958px;
-    background-color: white;
+    background-color: #FFF;
     margin: 120px auto 0;
     text-align: center;
 }
@@ -330,7 +323,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-
     margin: 0px;
     padding: 0px;
     margin-bottom: 16px;
@@ -353,9 +345,6 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-
-    margin: 0px;
-    padding: 0px;
     margin-bottom: 28px;
 }
 
@@ -368,15 +357,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    margin: 0px;
-    padding: 0px;
     margin-bottom: 64px;
     margin-left: 226px;
 
 }
 
 .holiday-images {
-
     justify-content: space-between;
     background-repeat: no-repeat;
 }
@@ -392,6 +378,7 @@
 
 .discount-photo {
     position: relative;
+    margin-top: 5px;
 }
 
 .discount-image {
@@ -402,12 +389,10 @@
 }
 
 .holiday-images .background-color {
-    background-image: url("../images/Rectangle\ 1.png");
- /* width: 1320px;
-    height: 229px; */
+    background-image: url("../images/Rectangle\ 2.png"); 
     background-position: bottom;
     background-repeat: no-repeat;
-
+    display: flex;
 }
 
 .background-color {
@@ -465,7 +450,7 @@
 .products-second {
     display: flex;
     gap: 24px;
- /* margin-top: 12px; */
+ 
 }
 
 .product {
